@@ -1,5 +1,5 @@
+import joblib
 import pandas as pd
-import pickle
 
 def input_data(x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13):
     input_data = [[x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13]]
@@ -11,7 +11,7 @@ def prediction(model, data):
     return result[0]
 
 if __name__ == "__main__" :
-    loaded_model = pickle.load(open('model/heart_disease_model.sav', 'rb'))
+    loaded_model = joblib.load("model/heart_disease_model.sav")
     print('\n----------------Heart Disease Prediction----------------\n')
     print('Heart Disease Prediction\n')
     print('Please input the variables: ')
