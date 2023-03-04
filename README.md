@@ -12,13 +12,13 @@ The results on the train and test set are shown below:
 
 | Metric | Training Set | Testing Set |
 | ------| ------------ | ----------- |
-| Accuracy | 0.87 | 0.70 |
-| Precision | 0.87 | 0.70 |
-| Recall| 0.87 | 0.70 |
-| F1-Score | 0.87 | 0.70 |
+| Accuracy | 0.88 | 0.68 |
+| Precision | 0.88 | 0.68 |
+| Recall| 0.88 | 0.68 |
+| F1-Score | 0.88 | 0.68 |
 
 ## Conclusion
-In conclusion, this repository provides code and data to build a machine learning model for heart disease prediction using a Decision Tree algorithm. The model achieved a decent performance on the testing set, with an accuracy, precision, recall, and f1 score of 0.70.
+In conclusion, this repository provides code and data to build a machine learning model for heart disease prediction using a Decision Tree algorithm. The model achieved a decent performance on the testing set, with an accuracy, precision, recall, and f1 score of 0.68.
 
 ## Requirements 
 
